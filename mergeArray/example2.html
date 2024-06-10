@@ -1,0 +1,18 @@
+<script>
+  // example 2
+  // Input: nums1 = [1], m = 1, nums2 = [], n = 0
+  // Output: [1]
+  // Explanation: The arrays we are merging are [1] and [].
+  // The result of the merge is [1].
+
+  var nums1 = [1];
+  var nums2 = [];
+
+  var merge = function (nums1, nums2) {
+    nums1 = nums1.concat(nums2);
+    return nums1;
+  };
+
+  var mergedCall = merge(nums1, nums2);
+  console.log(mergedCall);
+</script>
